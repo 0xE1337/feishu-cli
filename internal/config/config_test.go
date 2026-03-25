@@ -382,4 +382,3 @@ func TestInit_DebugFromEnv(t *testing.T) {
 		t.Errorf("Debug = %v, 期望 %v", c.Debug, true)
 	}
 }
-

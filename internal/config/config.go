@@ -10,13 +10,13 @@ import (
 
 // Config holds the application configuration
 type Config struct {
-	AppID             string       `mapstructure:"app_id"`
-	AppSecret         string       `mapstructure:"app_secret"`
-	UserAccessToken   string       `mapstructure:"user_access_token"`
-	BaseURL string       `mapstructure:"base_url"`
-	Debug   bool         `mapstructure:"debug"`
-	Export            ExportConfig `mapstructure:"export"`
-	Import            ImportConfig `mapstructure:"import"`
+	AppID           string       `mapstructure:"app_id"`
+	AppSecret       string       `mapstructure:"app_secret"`
+	UserAccessToken string       `mapstructure:"user_access_token"`
+	BaseURL         string       `mapstructure:"base_url"`
+	Debug           bool         `mapstructure:"debug"`
+	Export          ExportConfig `mapstructure:"export"`
+	Import          ImportConfig `mapstructure:"import"`
 }
 
 // ExportConfig holds export-related configuration
